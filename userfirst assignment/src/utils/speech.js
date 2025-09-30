@@ -1,4 +1,4 @@
-// src/utils/speech.js
+
 export function speakText(text) {
     try {
       window.speechSynthesis.cancel();

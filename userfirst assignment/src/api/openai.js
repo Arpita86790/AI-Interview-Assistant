@@ -1,4 +1,4 @@
-// src/api/openai.js
+
 export async function chatCompletion(messages, opts = {}) {
     const OPENAI_KEY = import.meta.env.VITE_OPENAI_API_KEY;
     if (!OPENAI_KEY) throw new Error("OpenAI API key missing in .env.local");
